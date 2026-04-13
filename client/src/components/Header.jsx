@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
-import { Link } from 'react-router-dom'; // Make sure this is react-router-dom if using web
+import { Link } from 'react-router';
 import { FaVideo, FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
